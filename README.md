@@ -67,7 +67,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 - [x] **Plugin System**: Sistema plugin modulare
 - [x] **Config System**: Configurazione tramite JSON/ENV
 
-## 🚀 Installazione Rapida
+# 🚀 Installazione 
 
 ### 📱 Termux (Android)
 
@@ -76,109 +76,102 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 pkg update && pkg upgrade
 ```
 
-# Installa dipendenze
+#### Installa dipendenze
 ```bash
 pkg install nodejs git python
 ```
 
-# Clona il repository
+#### Clona il repository
 ```bash
 git clone https://github.com/[tuo-username]/[nome-repo].git
 cd [nome-repo]
 ``` 
 
-# Installa dipendenze npm
+#### Installa dipendenze npm
 ```
 npm install
 ```
 
-# Avvia il bot
+#### Avvia il bot
 ```bash
 npm start
 ```
 
 ### 💻 Windows
 
-# Prerequisiti: Node.js 16+ e Git installati
+#### Prerequisiti: Node.js 16+ e Git installati
 
-# Clona il repository
+#### Clona il repository
+```bash
 git clone https://github.com/[tuo-username]/[nome-repo].git
 cd [nome-repo]
+```
 
-# Installa dipendenze
-npm install
+#### Installa dipendenze
+```bash
+npm install -g ffmpeg imagemagick nodejs
+```
 
-# Avvia il bot
+#### Avvia il bot
+```bash
 npm start
 ```
 
-### 🐳 Docker (Opzionale)
+#### 🐳 Docker (Opzionale)
+#### Build immagine
 ```bash
-# Build immagine
 docker build -t whatsapp-bot .
-
-# Run container
+```
+#### Run container
+```bash
 docker run -d --name wa-bot -v $(pwd)/sessions:/app/sessions whatsapp-bot
 ```
 
 ## ⚙️ Configurazione
 
-### 1. File di Configurazione
-Crea un file `config.json` nella directory principale:
+### 1. Prime configurazioni
+cerca il file `config.js` e modifica il numero e il nome del proprietario, se sei da telefono usa qualche editor oppure usa 
+`pkg install nano` e poi `nano config.js` per usare l'editor su termux:
 
-```json
-{
-  "botName": "Il Mio Bot",
-  "prefix": "!",
-  "ownerNumber": "39xxxxxxxxxx",
-  "timezone": "Europe/Rome",
-  "database": {
-    "type": "json",
-    "path": "./database/db.json"
-  },
-  "features": {
-    "autoRead": true,
-    "autoReact": false,
-    "welcomeMessage": true,
-    "antiSpam": true
-  }
-}
+```node js
+global.owner = [
+
+  ['390001113333@s.whatsapp.net', '𓊈ҽαʂƚҽɾ𓊉𓆇𓃹', true],
+  ['392225557777@s.whatsapp.net', 'puoi aggiungere altri owner' ]
+
+]
+```
+
+puoi anche modificare altre cose come il nome del bot o l'autore dei pacchetti di stickers:
+```node js
+global.packname = ``
+global.author = '{\n "bot": {\n   "name": "PᏂ𝚒𝑠𝐡ⲩ ᶠᶸᶜᵏᵧₒᵤ!",\n     "author": "easter",\n   "status_bot": "active"\n }\n}'
+global.wait = '🐢 *PᏂ𝚒𝑠𝐡ⲩ ᶠᶸᶜᵏᵧₒᵤ!*'
+global.botname = 'PᏂ𝚒𝑠𝐡ⲩ ᶠᶸᶜᵏᵧₒᵤ!'
+global.textbot = `buongiorno`
+global.listo = '*🍭 Aqui tiene*'
+global.namechannel = '【 PᏂ𝚒𝑠𝐡ⲩ ᶠᶸᶜᵏᵧₒᵤ! 】'
 ```
 
 ### 2. Variabili d'Ambiente
-Crea un file `.env`:
+Crea un file di nome `.env` se vuoi usare le tue API fuori dagli script:
 
 ```env
 # API Keys (opzionali)
 OPENAI_API_KEY=your_openai_key
 GOOGLE_API_KEY=your_google_key
-WEATHER_API_KEY=your_weather_key
 
-# Database (se usi MongoDB)
-MONGO_URI=mongodb://localhost:27017/whatsappbot
-
-# Altri servizi
-WEBHOOK_URL=https://your-webhook.com
 ```
 
-### 3. Prima Configurazione
-```bash
-# Copia il file di esempio
-cp config.example.json config.json
 
-# Modifica con i tuoi dati
-nano config.json
-
-# Avvia per la prima volta
-npm run setup
-```
-
-## 📱 Come Usare
+## 📱 Come si usa?
 
 ### Connessione
-1. Avvia il bot con `npm start`
-2. Scansiona il QR code con WhatsApp
-3. Il bot si connetterà automaticamente
+1. Avvia il bot con `npm start` oppure `node index.js` oppure `node .`
+2. Dopo il caricamento scrivi 1 o 2 per scegliere come unire il bot con il tuo numero.
+   ➪ se hai scelto con codice QR apri WhatsApp, apri ⋮ , poi apri Dispositivi_collegati/Collega un dispositivo, ti si aprirà la fotocamera e       dovrai scanerizzare il codice che ti appare sul terminale.
+   ➪ se hai scelto con codice a 6 cifre arriva lo stesso a Collega un dispositivo, e poi cliccare in basso sulla scritta "In alternativa, collega con il numero di telefono", inserire nel terminale il numero di telefono e inserire sul telefono il codice che ti viene mostrato nel terminale.
+4. Il bot si connetterà automaticamente
 
 ### Comandi Base
 ```
