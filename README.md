@@ -52,8 +52,9 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 | antiprivato | il bot blocca la persona che gli scrive in prvivato | ✅ |
 
 ### altro
-|---------|-------------|-----|
+
 | sologruppo | i comandi non funzionano in privato | ✅ |
+|---------|-------------|-----|
 | soloprivato | i comandi non funzionano nei gruppi | ✅ |
 
 
@@ -69,26 +70,35 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 ## 🚀 Installazione Rapida
 
 ### 📱 Termux (Android)
-```bash
+
 # Aggiorna i pacchetti
+```bash
 pkg update && pkg upgrade
+```
 
 # Installa dipendenze
+```bash
 pkg install nodejs git python
+```
 
 # Clona il repository
+```bash
 git clone https://github.com/[tuo-username]/[nome-repo].git
 cd [nome-repo]
+``` 
 
 # Installa dipendenze npm
+```
 npm install
+```
 
 # Avvia il bot
+```bash
 npm start
 ```
 
 ### 💻 Windows
-```bash
+
 # Prerequisiti: Node.js 16+ e Git installati
 
 # Clona il repository
