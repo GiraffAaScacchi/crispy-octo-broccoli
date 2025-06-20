@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/Social-FF0069?style=for-the-badge&logo=Instagram&logoColor=white" />
 </p>
 
-## 📝 Descrizione
+## Descrizione
 
 Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre [descrivi le funzionalità principali del tuo bot].
 
