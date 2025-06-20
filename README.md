@@ -40,6 +40,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 ### restrizioni
 | funzione | Descrizione | Uso |
+|---------|-------------|-----|
 | antiarab | kicka fuori chi scrive da numeri stranieri | ✅ |
 | antiporno | ancora in fase di sviluppo, non lascia che utenti mandino materiale nsfw | ❌ |
 | antitrava | riconosce messaggi troppo lunghi e li elimina | ✅ |
@@ -51,6 +52,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 | antiprivato | il bot blocca la persona che gli scrive in prvivato | ✅ |
 
 ### altro
+|---------|-------------|-----|
 | sologruppo | i comandi non funzionano in privato | ✅ |
 | soloprivato | i comandi non funzionano nei gruppi | ✅ |
 
