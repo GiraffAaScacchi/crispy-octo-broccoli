@@ -71,7 +71,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 ### 📱 Termux (Android)
 
-# Aggiorna i pacchetti
+#### Aggiorna i pacchetti
 ```bash
 pkg update && pkg upgrade
 ```
