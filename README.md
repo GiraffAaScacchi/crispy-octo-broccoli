@@ -17,7 +17,7 @@
 
 ## Descrizione
 
-Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre [descrivi le funzionalità principali del tuo bot].
+Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre varie opzioni per aiutare gli amministratori e contiene tanti comandi divertenti e intressanti da usare per gli utenti.
 
 ## ✨ Caratteristiche
 
