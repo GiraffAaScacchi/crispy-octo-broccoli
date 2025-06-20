@@ -1,7 +1,7 @@
 # 🤖 [Nome del tuo Bot] - WhatsApp Bot
 </p> 
  <p align="center"> 
- <img width="" src="[https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+![Descrizione alternativa]([https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
  </p> 
 
 <p align="center">
