@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="[./assets/preview.gif](https://ibb.co/HLPgTMW9)" alt="Bot Preview" width="600"/>
+   <img width="400" src="[https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWRnMmhmNzRwcXFpOTJkbmN1NjIxNWw4Zmw3MnBlanE0MnR4eXM0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etn52ENYVnpxqMaXiT/giphy.gif)?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
 </p>
 
 ## 📝 Descrizione
