@@ -25,7 +25,12 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 ### per il gruppo
 
+
+
+
+
 | funzione | Descrizione | Uso |
+|---------|-------------|-----|
 | detect | questa funzione serve per far funzionare vari comandi come dare admin o rimuovere utenti, lasciatela sempre attiva | ✅ |
 | benvenuto | saluta gli utenti quando entrano. i messaggi di  benvenuto, bentornato e addio sono tutti personalizzabili e diversi per ogni gruppo | ✅ |
 | modoadmin | se è attivo in quel gruppo solo gli admin possono usare i comandi | ✅ |
