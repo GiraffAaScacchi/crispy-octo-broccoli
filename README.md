@@ -1,8 +1,8 @@
 # 🤖 [Nome del tuo Bot] - WhatsApp Bot
 <p align="center">
 
-  ![phishy]([https://url-completo-dell-immagine.jpg](https://ibb.co/HLPgTMW9))
-  <img src="[assets/project-logo.png](https://ibb.co/HLPgTMW9)" alt="Logo del progetto" width="200">
+
+![Descrizione dell'immagine](https://ibb.co/HLPgTMW9)
 </p>
 
 <p align="center">
