@@ -1,9 +1,6 @@
-# 🤖 [Nome del tuo Bot] - WhatsApp Bot
+# PhiShy - Fuck - U
 </p> 
  <p align="center"> 
-![Descrizione alternativa](https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
-
-
   <img width="400" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
 
