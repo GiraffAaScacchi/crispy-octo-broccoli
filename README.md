@@ -4,7 +4,7 @@
 ![Descrizione alternativa](https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
 
 
-  <img width="" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
+  <img width="100" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
 
 <p align="center">
