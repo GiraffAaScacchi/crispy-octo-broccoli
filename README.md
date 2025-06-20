@@ -2,7 +2,7 @@
 <p align="center">
 
 
-![Descrizione dell'immagine](https://ibb.co/HLPgTMW9)
+![Descrizione dell'immagine]([https://ibb.co/HLPgTMW9][img]https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
 </p>
 
 <p align="center">
