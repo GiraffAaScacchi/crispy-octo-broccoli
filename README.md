@@ -1,4 +1,4 @@
-# PhiShy - Fuck - U
+# ᴘʜͥʏꜱͣʜͫʏ--->ʙ̳ᴏ̳ᴛ̳ ᥫ᭡
 </p> 
  <p align="center"> 
   <img width="400" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
