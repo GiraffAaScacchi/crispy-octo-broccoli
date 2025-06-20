@@ -1,4 +1,9 @@
-# ᴘʜͥʏꜱͣʜͫʏ--->ʙ̳ᴏ̳ᴛ̳ ᥫ᭡
+# Indice
+- [Descrizione](#Descrizione)
+- [Installazine](#Installazine)
+- [Funzioni](#Funzioni)
+- [Comandi](#Comandi)
+
 </p> 
  <p align="center"> 
   <img width="400" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
@@ -8,10 +13,6 @@
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   <img src="https://img.shields.io/badge/Social-FF0069?style=for-the-badge&logo=Instagram&logoColor=white" />
-</p>
-
-<p align="center">
-   <img width="400" src="[https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWRnMmhmNzRwcXFpOTJkbmN1NjIxNWw4Zmw3MnBlanE0MnR4eXM0ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etn52ENYVnpxqMaXiT/giphy.gif)?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
 </p>
 
 ## 📝 Descrizione
