@@ -1,4 +1,7 @@
 # 🤖 [Nome del tuo Bot] - WhatsApp Bot
+<p align="center">
+  <img src="assets/project-logo.png" alt="Logo del progetto" width="200">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
@@ -7,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/preview.gif" alt="Bot Preview" width="600"/>
+  <img src="[./assets/preview.gif](https://ibb.co/HLPgTMW9)" alt="Bot Preview" width="600"/>
 </p>
 
 ## 📝 Descrizione
