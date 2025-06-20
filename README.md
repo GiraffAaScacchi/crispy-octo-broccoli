@@ -1,7 +1,7 @@
 # 🤖 [Nome del tuo Bot] - WhatsApp Bot
 </p> 
  <p align="center"> 
-![Descrizione alternativa]([https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
+![Descrizione alternativa](https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png)
  </p> 
 
 <p align="center">
