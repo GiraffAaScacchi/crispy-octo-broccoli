@@ -82,6 +82,8 @@ altro
 
 ## 🚀 Installazione 
 
+fai il Fork al repository e esegui questi passaggi:
+
 ### 📱 Termux (Android)
 
 Aggiorna i pacchetti
@@ -168,17 +170,6 @@ global.textbot = `buongiorno`
 global.listo = '*🍭 Aqui tiene*'
 global.namechannel = '【 PᏂ𝚒𝑠𝐡ⲩ ᶠᶸᶜᵏᵧₒᵤ! 】'
 ```
-
-### 2. Variabili d'Ambiente
-Crea un file di nome `.env` se vuoi usare le tue API fuori dagli script:
-
-```env
-# API Keys (opzionali)
-OPENAI_API_KEY=your_openai_key
-GOOGLE_API_KEY=your_google_key
-
-```
-
 
 ## Installazione
 
@@ -500,24 +491,6 @@ DEBUG=baileys* npm start
 ```
 
 
-## 🤝 Contribuire
-
-### Come Contribuire
-1. Fork il repository
-2. Crea branch feature (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add AmazingFeature'`)
-4. Push branch (`git push origin feature/AmazingFeature`)
-5. Apri Pull Request
-
-
-## ⭐ Supporta il Progetto
-
-Se questo bot ti è stato utile, considera di:
-- ⭐ Mettere una stella al repository
-- 🐛 Segnalare bug o suggerimenti
-- 💝 Fare una donazione
-
-## 📊 Statistiche
 
 ![GitHub stars](https://img.shields.io/github/stars/tuo-username/nome-repo?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/tuo-username/nome-repo?style=social)
@@ -527,5 +500,5 @@ Se questo bot ti è stato utile, considera di:
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/easterbones">easter</a>
+  PhiShy fuck u by <a href="https://github.com/easterbones">easter</a>
 </p>
