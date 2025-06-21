@@ -182,7 +182,7 @@ GOOGLE_API_KEY=your_google_key
 
 ## 🎮 Comandi Disponibili
 
-#### 🛠️ TOOLS
+##### 🛠️ TOOLS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | hd | Migliora la qualità di un'immagine | `hd` |
@@ -212,7 +212,7 @@ GOOGLE_API_KEY=your_google_key
 | filtra | blocca una parola per 24 ore | `filtra <parola>` |
 
 -----
-#### 🎭 AZIONI  
+##### 🎭 AZIONI  
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | dance | Balla con qualcuno | `dance @utente` |
@@ -235,7 +235,7 @@ GOOGLE_API_KEY=your_google_key
 | lega | Lega qualcuno | `lega @utente` |
 
 -----
-#### 🏅 TOP
+##### 🏅 TOP
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | top | Classifica dei messaggi | `top` |
@@ -247,7 +247,7 @@ GOOGLE_API_KEY=your_google_key
 | settimana | Classifica settimanale | `settimana` |
 
 -----
-#### 🎰 GIOCHI
+##### 🎰 GIOCHI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | blackjack | Gioca a blackjack contro il bot| `blackjack` |
@@ -261,7 +261,7 @@ GOOGLE_API_KEY=your_google_key
 | cfs | carta forbici sasso contro il bot | `cfs` |
 
 -------
-#### MISSIONI 📢
+##### MISSIONI 📢
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 |---------|----------|-------|
 | missioni | vedi le missioni disponibili | `missioni` |
@@ -272,7 +272,7 @@ GOOGLE_API_KEY=your_google_key
 | ricaricamissioni | Ricarica missioni (admin)| `ricaricamissioni` |
 
 -----
-#### 🎉 FUN
+##### 🎉 FUN
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | cr7 | Tributo a Cristiano Ronaldo | `cr7` |
@@ -295,12 +295,12 @@ GOOGLE_API_KEY=your_google_key
 ------
 ### 👑 Admin
 
-#### 🗣️ GRUPPO 
+##### 🗣️ GRUPPO 
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | add | Aggiungi utente al gruppo | `add <numero>` |
 | fixscudi | Ripara il bug dei scudi | `fixscudi` |
-| setwelcome/setbye | Imposta messaggio di benvenuto/addio | `setwelcome <messaggio>` |
+| setwelcome/setbye/setbentornato | Imposta messaggio di benvenuto, addio e bentornato | `setwelcome <messaggio>` |
 | set | Impostazioni gruppo | `set <opzione>` |
 | aperto/chiuso | Apri/chiudi gruppo | `aperto` o `chiuso` |
 | del | Elimina messaggio | `del` (rispondi al messaggio) |
@@ -350,7 +350,7 @@ GOOGLE_API_KEY=your_google_key
 -----
 ### RPG (role play, economia)
 
-#### 📃 STATS
+###### 📃 STATS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | profilo | Statistiche nel gioco | `profilo` |
@@ -361,7 +361,7 @@ GOOGLE_API_KEY=your_google_key
 | nome/cambianome | Cambia il tuo nome nel database, utile quando vedi il numero di cell invece del nick | `nome <nuovo_nome>` |
 
 -----
-#### 🛒 NEGOZIO
+###### 🛒 NEGOZIO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | shop | Menu del negozio | `shop` |
@@ -369,7 +369,7 @@ GOOGLE_API_KEY=your_google_key
 | vendi | Vendi oggetti | `vendi <oggetto>` |
 
 -----
-#### 🍬 CARAMELLE/DOLCI
+###### 🍬 CARAMELLE/DOLCI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | sceglilavoro/setjob | Cercati un lavoro | `sceglilavoro` |
@@ -385,7 +385,7 @@ GOOGLE_API_KEY=your_google_key
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 
 -----
-#### 🐯 ANIMALI/PET
+###### 🐯 ANIMALI/PET
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | bagno | Lava il tuo pet | `bagno` |
@@ -397,7 +397,7 @@ GOOGLE_API_KEY=your_google_key
 | ✜ speciale | Usa abilità speciali | `speciale` |
 
 -----
-#### 📊 AZIONI E CRYPTO
+###### 📊 AZIONI E CRYPTO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | mercato borsa | Mostra dati recenti | `mercato borsa` |
@@ -405,7 +405,7 @@ GOOGLE_API_KEY=your_google_key
 | mercato compra/vendi | Scambia dolci con crypto | `mercato compra/vendi` |
 | azioni | Mostra azioni/crypto possedute | `azioni` |
 
-#### 🧙🏻‍♂️ MAGIA
+###### 🧙🏻‍♂️ MAGIA
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | reg | Registrati nel mondo magico | `reg` |
