@@ -71,28 +71,26 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 ### 📱 Termux (Android)
 
-#### Aggiorna i pacchetti
+Aggiorna i pacchetti
 ```bash
 pkg update && pkg upgrade
 ```
 
-#### Installa dipendenze
+Installa dipendenze
 ```bash
 pkg install nodejs git python
 ```
 
-#### Clona il repository
+Clona il repository
 ```bash
 git clone https://github.com/[tuo-username]/[nome-repo].git
 cd [nome-repo]
 ``` 
-
-#### Installa dipendenze npm
+Installa dipendenze npm
 ```
 npm install
 ```
-
-#### Avvia il bot
+Avvia il bot
 ```bash
 npm start
 ```
@@ -106,28 +104,28 @@ npm start
 * scarica e installa ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
 
 
-#### Clona il repository
+Clona il repository
 ```bash
 git clone https://github.com/[tuo-username]/[nome-repo].git
 cd [nome-repo]
 ```
 
-#### Installa dipendenze
+Installa dipendenze
 ```bash
 npm install -g ffmpeg imagemagick nodejs
 ```
 
-#### Avvia il bot
+Avvia il bot
 ```bash
 npm start
 ```
 
-#### 🐳 Docker (Opzionale)
-#### Build immagine
+🐳 Docker (Opzionale)
+Build immagine
 ```bash
 docker build -t whatsapp-bot .
 ```
-#### Run container
+Run container
 ```bash
 docker run -d --name wa-bot -v $(pwd)/sessions:/app/sessions whatsapp-bot
 ```
