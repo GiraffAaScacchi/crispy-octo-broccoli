@@ -17,12 +17,12 @@
 
 
 # Indice
-- [Descrizione](#Descrizione)
+- [📑 Descrizione](#-Descrizione)
 - [🚀 Installazione](#-Installazione)
-- [Funzioni](#Funzioni)
-- [Comandi](#Comandi)
+- [⚙️ Impostazioni](#-Impostazioni)
+- [📢 Lista di comandi](#-Lista-di-comandi)
 
-## Descrizione
+## 📑 Descrizione
 
 Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre varie opzioni per aiutare gli amministratori e contiene tanti comandi divertenti e intressanti da usare per gli utenti.
 
@@ -187,7 +187,7 @@ GOOGLE_API_KEY=your_google_key
 
 4. Se tutto va bene, il bot si connetterà automaticamente, ti chiederà all'inzio di fare un riavvio, non te lo chiederà più le prossime volte.
 
-## Lista di comandi 
+## 📢 Lista di comandi 
 
 ### 👻 Comandi per tutti gli utenti
 
