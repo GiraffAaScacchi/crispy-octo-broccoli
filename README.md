@@ -130,11 +130,11 @@ Run container
 docker run -d --name wa-bot -v $(pwd)/sessions:/app/sessions whatsapp-bot
 ```
 
-## ⚙️ Configurazione
+## ⚙️ Impostazioni
 
-### 1. Prime configurazioni
+### 1. Configurazione
 cerca il file `config.js` e modifica il numero e il nome del proprietario, se sei da telefono usa qualche editor oppure usa 
-`pkg install nano` e poi `nano config.js` per usare l'editor su termux:
+`pkg install nano` e poi `nano config.js` per usare l'editor su termux, se usi il pc scarica [vs studio](https://code.visualstudio.com/download) ma funziona anche il blocco note:
 
 ```node js
 global.owner = [
