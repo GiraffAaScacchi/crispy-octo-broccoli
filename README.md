@@ -30,7 +30,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 
 | funzione | Descrizione | Uso |
-|---------|-------------|-----|
+|---------|------|-----|
 | detect | questa funzione serve per far funzionare vari comandi come dare admin o rimuovere utenti, lasciatela sempre attiva | ✅ |
 | benvenuto | saluta gli utenti quando entrano. i messaggi di  benvenuto, bentornato e addio sono tutti personalizzabili e diversi per ogni gruppo | ✅ |
 | modoadmin | se è attivo in quel gruppo solo gli admin possono usare i comandi | ✅ |
@@ -40,7 +40,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 
 ### restrizioni
 | funzione | Descrizione | Uso |
-|---------|-------------|-----|
+|---------|---------|-----|
 | antiarab | kicka fuori chi scrive da numeri stranieri | ✅ |
 | antiporno | ancora in fase di sviluppo, non lascia che utenti mandino materiale nsfw | ❌ |
 | antitrava | riconosce messaggi troppo lunghi e li elimina | ✅ |
@@ -67,7 +67,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 - [x] **Plugin System**: Sistema plugin modulare
 - [x] **Config System**: Configurazione tramite JSON/ENV
 
-# 🚀 Installazione 
+## 🚀 Installazione 
 
 ### 📱 Termux (Android)
 
@@ -100,6 +100,11 @@ npm start
 ### 💻 Windows
 
 #### Prerequisiti: Node.js 16+ e Git installati
+* scarica e installa Git [`Aquí`](https://git-scm.com/downloads)
+* scarica e installa NodeJS [`Aquí`](https://nodejs.org/en/download)
+* scarica e installa FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**Non dimenticare di aggiungere FFmpeg alla variabile d'ambiente PATH.**)
+* scarica e installa ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
+
 
 #### Clona il repository
 ```bash
