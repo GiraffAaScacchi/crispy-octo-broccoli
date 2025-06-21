@@ -2,7 +2,7 @@
 <h1 align="center">𝐏𝐡𝐢𝐒𝐡𝐲 𝐅𝐜𝐤 𝐔 𝐁𝐨𝐭 💮</h1>
 
 <p align="center">
-  <img src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png" width="250" />
+  <img src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png" width="270" />
 </p>
 
 <p align="center">
