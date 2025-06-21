@@ -182,6 +182,8 @@ GOOGLE_API_KEY=your_google_key
 
 ## Lista di comandi 
 
+### 👻 Comandi per tutti gli utenti
+
 🛠️ TOOLS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
@@ -210,6 +212,8 @@ GOOGLE_API_KEY=your_google_key
 | wiki | Cerca su Wikipedia | `wiki <termine>` |
 | paese | Informazioni su un paese | `paese <nome>` |
 | filtra | blocca una parola per 24 ore | `filtra <parola>` |
+| animeinfo | Informazioni su anime | `animeinfo <nome>` |
+| mangainfo | Informazioni su manga | `mangainfo <nome>` |
 
 -----
 🎭 AZIONI  
@@ -227,8 +231,6 @@ GOOGLE_API_KEY=your_google_key
 | abbraccio | Abbraccia qualcuno | `abbraccio @utente` |
 | insulta | Insulta qualcuno | `insulta @utente` |
 | lite | fai litigare due persone a caso | `lite @utente` |
-| animeinfo | Informazioni su anime | `animeinfo <nome>` |
-| mangainfo | Informazioni su manga | `mangainfo <nome>` |
 | misura | Misura attributi | `misura pene/bocce @utente` |
 | qrcode | Genera QR code | `qrcode <testo>` |
 | sposami | TI propone qualcuno con cui poterti sposare | `sposami @utente` |
@@ -293,9 +295,9 @@ MISSIONI 📢
 | f1 | comando dedicato a giulia | `f1` |
 
 ------
-### 👑 Admin
+### 👑 Comandi per Admin
 
-##### 🗣️ GRUPPO 
+🗣️ GRUPPO 
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | add | Aggiungi utente al gruppo | `add <numero>` |
@@ -322,7 +324,7 @@ MISSIONI 📢
 | infostato | Informazioni stato gruppo | `infostato` |
 
 ----------
-#### 👥 TAG FUNZIONI
+👥 TAG FUNZIONI
 | Comando | Descrizione | Uso |
 |---------|------|-----|
 | hidetag | Tag nascosto a tutti | `hidetag <messaggio>` |
@@ -332,7 +334,7 @@ MISSIONI 📢
 | vaffanculo | insulta tutto il gruppo | `vaffanculo` |
 
 ------
-#### 🎭 FUN COMMANDS 
+🎭 FUN COMMANDS 
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | dox | Informazioni fake su utente (forse) | `dox @utente` |
@@ -350,7 +352,7 @@ MISSIONI 📢
 -----
 ### RPG (role play, economia)
 
-###### 📃 STATS
+📃 STATS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | profilo | Statistiche nel gioco | `profilo` |
@@ -361,7 +363,7 @@ MISSIONI 📢
 | nome/cambianome | Cambia il tuo nome nel database, utile quando vedi il numero di cell invece del nick | `nome <nuovo_nome>` |
 
 -----
-###### 🛒 NEGOZIO
+🛒 NEGOZIO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | shop | Menu del negozio | `shop` |
@@ -369,7 +371,7 @@ MISSIONI 📢
 | vendi | Vendi oggetti | `vendi <oggetto>` |
 
 -----
-###### 🍬 CARAMELLE/DOLCI
+🍬 CARAMELLE/DOLCI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | sceglilavoro/setjob | Cercati un lavoro | `sceglilavoro` |
@@ -385,7 +387,7 @@ MISSIONI 📢
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 
 -----
-###### 🐯 ANIMALI/PET
+🐯 ANIMALI/PET
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | bagno | Lava il tuo pet | `bagno` |
@@ -397,7 +399,7 @@ MISSIONI 📢
 | ✜ speciale | Usa abilità speciali | `speciale` |
 
 -----
-###### 📊 AZIONI E CRYPTO
+📊 AZIONI E CRYPTO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | mercato borsa | Mostra dati recenti | `mercato borsa` |
@@ -405,7 +407,7 @@ MISSIONI 📢
 | mercato compra/vendi | Scambia dolci con crypto | `mercato compra/vendi` |
 | azioni | Mostra azioni/crypto possedute | `azioni` |
 
-###### 🧙🏻‍♂️ MAGIA
+🧙🏻‍♂️ MAGIA
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | reg | Registrati nel mondo magico | `reg` |
@@ -433,7 +435,7 @@ MISSIONI 📢
 | disco | bober |
 
 ------
-### Talk (attivo)
+### Talk (se è attivo)
 
 | Comando  | Sinonimi |
 |----------|----------|
@@ -451,39 +453,26 @@ MISSIONI 📢
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-## 🐛 Troubleshooting
-
-### Problemi Comuni
+## Problemi Comuni
 
 #### Bot non si connette
 ```bash
-# Cancella sessione
+### Cancella sessione
 rm -rf sessions/
 
-# Riavvia bot
+### Riavvia bot
 npm start
 ```
 
 #### Errori di memoria
 ```bash
-# Aumenta limite memoria Node.js
+### Aumenta limite memoria Node.js
 node --max-old-space-size=4096 index.js
 ```
 
 #### Problemi dipendenze
 ```bash
-# Reinstalla dipendenze
+### Reinstalla dipendenze
 rm -rf node_modules package-lock.json
 npm install
 ```
@@ -507,16 +496,6 @@ DEBUG=baileys* npm start
 4. Push branch (`git push origin feature/AmazingFeature`)
 5. Apri Pull Request
 
-## 📄 License
-
-Distribuito sotto licenza [GPL-3.0]. Vedi `LICENSE` per maggiori informazioni.
-
-## 🙏 Ringraziamenti
-
-- [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys) - Libreria principale
-- [adiwajshing](https://github.com/adiwajshing) - Creatore originale
-- 
-- Community WhatsApp Bot per supporto e feedback
 
 ## ⭐ Supporta il Progetto
 
@@ -524,9 +503,6 @@ Se questo bot ti è stato utile, considera di:
 - ⭐ Mettere una stella al repository
 - 🐛 Segnalare bug o suggerimenti
 - 💝 Fare una donazione
-
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/tuo-paypal)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/tuo-kofi)
 
 ## 📊 Statistiche
 
@@ -538,5 +514,5 @@ Se questo bot ti è stato utile, considera di:
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/tuo-username">Il Tuo Nome</a>
+  Made with ❤️ by <a href="https://github.com/easterbones">easter</a>
 </p>
