@@ -19,7 +19,7 @@
 # Indice
 - [📑 Descrizione](#-Descrizione)
 - [🚀 Installazione](#-Installazione)
-- [⚙️ Impostazioni](#-Impostazioni)
+- [⚙️ Impostazioni](#%EF%B8%8F-impostazioni)
 - [📢 Lista di comandi](#-Lista-di-comandi)
 
 ## 📑 Descrizione
