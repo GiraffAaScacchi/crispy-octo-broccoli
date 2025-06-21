@@ -18,7 +18,7 @@
 
 # Indice
 - [Descrizione](#Descrizione)
-- [Installazione](#Installazione)
+- [🚀 Installazione](#Installazione)
 - [Funzioni](#Funzioni)
 - [Comandi](#Comandi)
 
@@ -27,10 +27,10 @@
 Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre varie opzioni per aiutare gli amministratori e contiene tanti comandi divertenti e intressanti da usare per gli utenti.
 
 
-## 🎯 Funzionalità Principali
+### 🎯 Funzionalità Principali
 con funzioni si intende vari bottoni on/off che controllano funzioni automatiche del bot. da usare con .attiva o .disabilita... usateli sulle vostre preferenze.
 
-### per il gruppo
+per il gruppo
 
 
 
@@ -45,7 +45,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 | autolevelup | tutti gli utenti salgono di livello appena raggiungono gli exp necessari | ✅ |
 | antielimina | manda in privato all'owner i messaggi eliminati in una chat | ✅ |
 
-### restrizioni
+restrizioni
 | funzione | Descrizione | Uso |
 |---------|---------|-----|
 | antiarab | kicka fuori chi scrive da numeri stranieri | ✅ |
@@ -58,7 +58,7 @@ con funzioni si intende vari bottoni on/off che controllano funzioni automatiche
 | anticall | il bot blocca chi lo chiama | ✅ |
 | antiprivato | il bot blocca la persona che gli scrive in prvivato | ✅ |
 
-### altro
+altro
 
 | sologruppo | i comandi non funzionano in privato | ✅ |
 |---------|-------------|-----|
