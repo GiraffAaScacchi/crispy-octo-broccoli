@@ -180,16 +180,16 @@ GOOGLE_API_KEY=your_google_key
 |---------|-------------|-----|
 | hd | Migliora la qualità di un'immagine | `hd` |
 | img | Cerca immagini | `img <termine>` |
-| doc | Cerca documenti | `doc <termine>` |
+| doc | leggi la documentazione | `doc <termine>` |
 | tiktok | Scarica video da TikTok | `tiktok <link>` |
-| instagram | Scarica contenuti da Instagram | `instagram <link>` |
+| instagram | Scarica video da Instagram | `instagram <link>` |
 | dado | Lancia un dado | `dado` |
 | meteo | Controlla il meteo | `meteo <città>` |
-| info | Mostra informazioni generali | `info` |
+| info | Mostra le tue statistiche generali| `info` |
 | proprietario | Informazioni sul proprietario del bot | `proprietario` |
 | ping | Verifica la latenza del bot | `ping` |
 | lyrics | Cerca testi di canzoni | `lyrics <canzone>` |
-| stt | Speech to text | `stt` (con audio) |
+| tts | text to Speech | `tts <scrivi qualcosa>`  |
 | igstalk | Stalk profilo Instagram | `igstalk <username>` |
 | toanime | Converti immagine in stile anime | `toanime` (con immagine) |
 | toimg | Converti sticker in immagine | `toimg` (con sticker) |
@@ -197,93 +197,93 @@ GOOGLE_API_KEY=your_google_key
 | tovideo | Converti GIF in video | `tovideo` (con GIF) |
 | sticker/s | Crea sticker | `sticker` (con immagine) |
 | phishy | AI chatbot | `phishy <messaggio>` |
-| contautenti | Conta gli utenti nel gruppo | `contautenti` |
-| ispeziona | Ispeziona informazioni di un utente | `ispeziona` |
-| sito | Informazioni su un sito web | `sito <url>` |
-| virus | Scansiona file per virus | `virus` (con file) |
-| translate | Traduce testo | `translate <testo>` |
+| contautenti | Conta gli utenti nel database | `contautenti` |
+| virus | Scansiona un link  | `virus` (link) |
+| translate | Traduce testo, avvolte anche i dialetti | `translate <testo>` |
 | wiki | Cerca su Wikipedia | `wiki <termine>` |
-| gender | Predice il genere da un nome | `gender <nome>` |
 | paese | Informazioni su un paese | `paese <nome>` |
-| consigliafilm | Consiglia film | `consigliafilm` |
-| filtra | Filtra contenuti | `filtra` |
+| filtra | blocca una parola per 24 ore | `filtra <parola>` |
 
 -----
 #### 🎭 AZIONI  
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| dance | Fai ballare qualcuno | `dance @utente` |
+| dance | Balla con qualcuno | `dance @utente` |
 | sposa | Sposa qualcuno | `sposa @utente` |
 | divorzia | Divorzia da qualcuno | `divorzia @utente` |
-| bankai | Attacco bankai | `bankai @utente` |
-| bonk | Colpisci qualcuno | `bonk @utente` |
-| ditalino | Azione provocatoria | `ditalino @utente` |
-| sega | Azione provocatoria | `sega @utente` |
-| sfida | Sfida qualcuno | `sfida @utente` |
-| wwe | Wrestling match | `wwe @utente` |
+| bankai | Attacco bankai con Gif| `bankai @utente` |
+| bonk | Colpisci qualcuno con il bonki bonko cano | `bonk @utente` |
+| ditalino | ditalina una persona | `ditalino @utente` |
+| sega | fai una sega a qualcuno | `sega @utente` |
+| sfida | comando dedicato a One Piece simile a bankai | `sfida @utente` |
+| wwe | attacco con mossa da Wrestling | `wwe @utente` |
 | abbraccio | Abbraccia qualcuno | `abbraccio @utente` |
 | insulta | Insulta qualcuno | `insulta @utente` |
-| lite | Litiga con qualcuno | `lite @utente` |
+| lite | fai litigare due persone a caso | `lite @utente` |
 | animeinfo | Informazioni su anime | `animeinfo <nome>` |
 | mangainfo | Informazioni su manga | `mangainfo <nome>` |
 | misura | Misura attributi | `misura pene/bocce @utente` |
 | qrcode | Genera QR code | `qrcode <testo>` |
-| sposami | Proposta di matrimonio | `sposami @utente` |
+| sposami | TI propone qualcuno con cui poterti sposare | `sposami @utente` |
 | lega | Lega qualcuno | `lega @utente` |
 
 -----
 #### 🏅 TOP
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| top | Classifica generale | `top` |
-| topbestemmie | Top bestemmie | `topbestemmie` |
-| topdolci | Top dolci | `topdolci` |
+| top | Classifica dei messaggi | `top` |
+| topbestemmie | Classifica bestemmie | `bestemmie` |
+| topdolci | Classifica di chi ha più dolci | `topdolci` |
 | topgay | Top gay | `topgay` |
 | topscimmie | Top scimmie | `topscimmie` |
-| top5 | Top 5 generale | `top5` |
+| top5 | Top cincos videos espagnol | `top5` |
 | settimana | Classifica settimanale | `settimana` |
 
 -----
 #### 🎰 GIOCHI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| blackjack | Gioca a blackjack | `blackjack` |
+| blackjack | Gioca a blackjack contro il bot| `blackjack` |
 | slot | Gioca alle slot machine | `slot` |
-| poker | Gioca a poker | `poker` |
-| gara | Organizza una gara | `gara @utente` |
-| math | Gioco matematico | `math` |
-| canzone | Indovina la canzone | `canzone` |
+| poker | Gioca a poker (contiene ancora molti bug) | `poker` |
+| gara | fai una gara di moto o macchina contro qualcuno, ma solo se ne hai comprata una | `gara @utente` |
+| math | Giochi di matematica | `math` |
+| canzone | Indovina la canzone (contine bug) | `canzone` |
 | obbligo/verita | Obbligo o verità | `obbligo` o `verita` |
 | triss | Gioca a tris | `triss` |
-| cfs | Challenge fight system | `cfs` |
-| missioni | Sistema missioni | `missioni` |
-| missionihelp | Aiuto missioni | `missionihelp` |
+| cfs | carta forbici sasso contro il bot | `cfs` |
+
+-------
+#### MISSIONI 📢
+| missionihelp | Comandi relativi alle missioni | `missionihelp` |
+|---------|----------|-------|
+| missioni | vedi le missioni disponibili | `missioni` |
 | accetta | Accetta missione | `accetta` |
 | mymissioni | Le tue missioni | `mymissioni` |
 | annulla | Annulla missione | `annulla` |
-| verifica | Verifica missione | `verifica` |
-| ricaricamissioni | Ricarica missioni | `ricaricamissioni` |
+| verifica | Verifica missione (admin) | `verifica` |
+| ricaricamissioni | Ricarica missioni (admin)| `ricaricamissioni` |
 
 -----
 #### 🎉 FUN
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | cr7 | Tributo a Cristiano Ronaldo | `cr7` |
-| fototeta | Foto divertenti | `fototeta` |
-| ridi | Fai ridere | `ridi @utente` |
+| fototeta | no spoiler.. | `fototeta` |
+| ridi | ridi di qualcuno | `ridi @utente` |
 | amore | Livello di amore | `amore @utente` |
-| guilty | Livello di colpevolezza | `guilty @utente` |
-| hornycard | Carta del desiderio | `hornycard @utente` |
-| jail | Manda in prigione | `jail @utente` |
+| guilty | img di pentito | `guilty @utente` |
+| hornycard | img di un pervertito | `hornycard @utente` |
+| jail | img di un carcerato | `jail @utente` |
 | kebab | Ordina kebab | `kebab` |
 | odio | Livello di odio | `odio @utente` |
-| rispetto | Livello di rispetto | `rispetto @utente` |
-| gatto | Immagini di gatti | `gatto` |
+| rispetto | img di qualcuno con rispetto | `rispetto @utente` |
+| gatto | Immagini di gatti casuali | `gatto` |
 | personalita | Analizza personalità | `personalita @utente` |
 | emojimix | Mescola emoji | `emojimix 😀+😍` |
-| attp/ttp | Testo animato | `attp <testo>` |
+| attp/ttp | Testo animato con sticker | `attp <testo>` |
 | ricetta | Ricette casuali | `ricetta` |
-| f1 | Informazioni Formula 1 | `f1` |
+| f1 | comando dedicato a giulia | `f1` |
 
 
 
@@ -293,44 +293,45 @@ GOOGLE_API_KEY=your_google_key
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | add | Aggiungi utente al gruppo | `add <numero>` |
-| fixscudi | Ripara problemi del gruppo | `fixscudi` |
+| fixscudi | Ripara il bug dei scudi | `fixscudi` |
 | setwelcome/setbye | Imposta messaggio di benvenuto/addio | `setwelcome <messaggio>` |
 | set | Impostazioni gruppo | `set <opzione>` |
 | aperto/chiuso | Apri/chiudi gruppo | `aperto` o `chiuso` |
 | del | Elimina messaggio | `del` (rispondi al messaggio) |
 | inattivi | Lista utenti inattivi | `inattivi` |
 | kick | Espelli utente | `kick @utente` |
-| kicknum | Espelli per numero | `kicknum <numero>` |
+| ban | rimuovi l'utente da tutti i gurppi in cui phishy è admin (anche le bacheche) | `ban @utente` o `ban +39 xxx xxx xxxx` |
+| kicknum | Espelli per prefisso | `kicknum <numero>` |
 | muta/smuta | Silenzia/riattiva utente | `muta @utente` |
 | setmuta | Imposta durata silenzio | `setmuta <tempo>` |
 | promuovi/p | Promuovi ad admin | `promuovi @utente` |
 | retrocedi/r | Rimuovi admin | `retrocedi @utente` |
 | simula | Simula azione | `simula <azione>` |
-| warn | Avvisa utente | `warn @utente <motivo>` |
+| warn | aggiungi un avvertimento all'utente | `warn @utente <motivo>` |
 | unwarn | Rimuovi avvertimento | `unwarn @utente` o `unwarn 1/2/all` |
-| warnlist | Lista avvertimenti | `warnlist` |
-| setig | Imposta immagine gruppo | `setig` (con immagine) |
+| warnlist | Lista avvertimenti | `warnlist @utente` o `+39 xxx xxx xxxx` |
+| warngroup | Lista avvertimenti | `warngroup` |
+| setig | Imposta link di instagram nelle info | `setig @nome_utente`  |
 | speedtest | Test velocità connessione | `speedtest` |
 | infostato | Informazioni stato gruppo | `infostato` |
 
 ----------
 #### 👥 TAG FUNZIONI
 | Comando | Descrizione | Uso |
-|---------|-------------|-----|
+|---------|------|-----|
 | hidetag | Tag nascosto a tutti | `hidetag <messaggio>` |
 | tagall | Tagga tutti i membri | `tagall <messaggio>` |
-| tagmembri | Tagga solo i membri | `tagmembri <messaggio>` |
+| tagmembri | Tagga solo i membri normali | `tagmembri <messaggio>` |
 | admins | Tagga tutti gli admin | `admins <messaggio>` |
-| vaffanculo | Messaggio provocatorio | `vaffanculo` |
+| vaffanculo | insulta tutto il gruppo | `vaffanculo` |
 
----
+------
 #### 🎭 FUN COMMANDS 
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| dox | Informazioni fake su utente | `dox @utente` |
+| dox | Informazioni fake su utente (forse) | `dox @utente` |
 | stupra | Azione provocatoria | `stupra @utente` |
 | bocchino | Azione provocatoria | `bocchino @utente` |
-| bocchina | Azione provocatoria | `bocchina @utente` |
 
 
 ### RPG (role play, economia)
@@ -342,8 +343,8 @@ GOOGLE_API_KEY=your_google_key
 | info | Statistiche generali nel gruppo | `info` |
 | livello/level/lvl | Mostra il tuo livello attuale | `livello` |
 | levelup/lvlup | Aumenta di livello | `levelup` |
-| cura | Curati la vita con le pozioni | `cura` |
-| nome/cambianome | Cambia il tuo nome | `nome <nuovo_nome>` |
+| cura | Curati la vita con le pozioni | `cura minore/maggiore/definitiva` |
+| nome/cambianome | Cambia il tuo nome nel database, utile quando vedi il numero di cell invece del nick | `nome <nuovo_nome>` |
 
 ### 🛒 NEGOZIO
 | Comando | Descrizione | Uso |
@@ -355,25 +356,18 @@ GOOGLE_API_KEY=your_google_key
 ### 🍬 CARAMELLE/DOLCI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| lavoro/sceglilavoro/setjob | Cercati un lavoro | `lavoro` |
+| sceglilavoro/setjob | Cercati un lavoro | `sceglilavoro` |
 | lavora/work | Fai soldi fatturando | `lavora` |
-| prega | Meno soldi ma minore cooldown | `prega` |
-| ruba | Ruba altri utenti | `ruba @utente` |
+| prega | Trova meno soldi ma minore cooldown | `prega` |
+| ruba | Ruba ad altri utenti | `ruba @utente` |
 | daily | Premio quotidiano | `daily` |
 | wallet | Vedi i tuoi soldi | `wallet` |
 | deposita | Metti in banca i tuoi dolci | `deposita <numero>` |
 | transferisci | Trasferisci oggetti ad altri | `transferisci <numero/oggetto> @utente` |
-| tesoro | Ricevi grossi premi | `tesoro` |
+| tesoro | Ricevi grossi premi dopo il livello 30| `tesoro` |
 | scassa | Scassina cassaforte (serve forcina) | `scassa @utente` |
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 
-### 🎡 GIOCHI
-| Comando | Descrizione | Uso |
-|---------|-------------|-----|
-| blackjack | Gioca a blackjack | `blackjack` |
-| slot | Gioca alle slot machine | `slot` |
-| poker | Gioca a poker | `poker` |
-| gara | Organizza una gara | `gara @utente` |
 
 ### 🐯 ANIMALI/PET
 | Comando | Descrizione | Uso |
@@ -381,10 +375,10 @@ GOOGLE_API_KEY=your_google_key
 | bagno | Lava il tuo pet | `bagno` |
 | cibo | Dai da mangiare al pet | `cibo` |
 | curiosita | Curiosità sul pet | `curiosita` |
-| combatti | Fai combattere il pet | `combatti @utente` |
-| attacca | Attacca in combattimento | `attacca` |
-| difendi | Difenditi in combattimento | `difendi` |
-| abilita | Usa abilità speciali | `abilita` |
+| ✜ combatti | Fai combattere il pet | `combatti @utente` |
+| ✜ attacca | Attacca in combattimento | `attacca` |
+| ✜ difendi | Difenditi in combattimento | `difendi` |
+| ✜ speciale | Usa abilità speciali | `speciale` |
 
 ### 📊 AZIONI E CRYPTO
 | Comando | Descrizione | Uso |
@@ -448,57 +442,12 @@ GOOGLE_API_KEY=your_google_key
 
 
 
--
-#### 🎯 Utility
-| Comando | Descrizione | Uso |
-|---------|-------------|-----|
-| `!weather` | Meteo | `!weather Roma` |
-| `!translate` | Traduci testo | `!translate en it Hello` |
-| `!qr` | Genera QR code | `!qr Testo` |
-
------
-#### 🎵 Media
-| Comando | Descrizione | Uso |
-|---------|-------------|-----|
-| `!ytdl` | Download YouTube | `!ytdl [url]` |
-| `!sticker` | Crea sticker | Rispondi a immagine |
-| `!tts` | Text to speech | `!tts Ciao mondo` |
 
 
 
 
 
 
-
-
-### Permessi
-```javascript
-// Livelli permessi
-const PERMISSIONS = {
-    USER: 0,
-    VIP: 1,
-    ADMIN: 2,
-    OWNER: 3
-}
-```
-
-## 📈 Monitoring
-
-### Logs
-```bash
-# Visualizza logs
-tail -f logs/bot.log
-
-# Logs per categoria
-npm run logs:error
-npm run logs:warn
-```
-
-### Statistiche
-- Messaggi processati
-- Comandi più usati
-- Utenti attivi
-- Uptime bot
 
 ## 🐛 Troubleshooting
 
@@ -535,55 +484,6 @@ DEBUG=* npm start
 DEBUG=baileys* npm start
 ```
 
-## 📦 Dipendenze
-
-### Principali
-```json
-{
-    "@whiskeysockets/baileys": "^6.x.x",
-    "qrcode-terminal": "^0.12.0",
-    "pino": "^8.x.x",
-    "moment": "^2.x.x"
-}
-```
-
-### Opzionali
-```json
-{
-    "openai": "^4.x.x",
-    "mongoose": "^7.x.x",
-    "ytdl-core": "^4.x.x",
-    "axios": "^1.x.x"
-}
-```
-
-## 🚀 Deployment
-
-### VPS/Server
-```bash
-# Con PM2
-npm install -g pm2
-pm2 start ecosystem.config.js
-pm2 save
-pm2 startup
-```
-
-### Heroku
-```bash
-# Login Heroku
-heroku login
-
-# Crea app
-heroku create nome-bot
-
-# Deploy
-git push heroku main
-```
-
-### Railway/Render
-1. Collega repository GitHub
-2. Configura variabili ambiente
-3. Deploy automatico
 
 ## 🤝 Contribuire
 
@@ -594,27 +494,15 @@ git push heroku main
 4. Push branch (`git push origin feature/AmazingFeature`)
 5. Apri Pull Request
 
-### Coding Standards
-- Usa ESLint/Prettier
-- Commenti in italiano/inglese
-- Test per nuove funzionalità
-- Documentazione aggiornata
-
 ## 📄 License
 
-Distribuito sotto licenza [MIT/GPL-3.0]. Vedi `LICENSE` per maggiori informazioni.
-
-## 👨‍💻 Autore
-
-**[Il Tuo Nome]**
-- GitHub: [@tuo-username](https://github.com/tuo-username)
-- Telegram: [@tuo-telegram](https://t.me/tuo-telegram)
-- WhatsApp: [+39xxxxxxxxxx](https://wa.me/39xxxxxxxxxx)
+Distribuito sotto licenza [GPL-3.0]. Vedi `LICENSE` per maggiori informazioni.
 
 ## 🙏 Ringraziamenti
 
 - [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys) - Libreria principale
 - [adiwajshing](https://github.com/adiwajshing) - Creatore originale
+- 
 - Community WhatsApp Bot per supporto e feedback
 
 ## ⭐ Supporta il Progetto
