@@ -1,7 +1,8 @@
- 𝐏𝐡𝐢𝐒𝐡𝐲 𝐅𝐜𝐤 𝐔 𝐁𝐨𝐭
+
 
 </p> 
  <p align="center"> 
+  # 𝐏𝐡𝐢𝐒𝐡𝐲 𝐅𝐜𝐤 𝐔 𝐁𝐨𝐭
   <img width="400" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
  </p> 
 
