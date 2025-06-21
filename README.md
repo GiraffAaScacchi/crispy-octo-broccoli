@@ -175,10 +175,11 @@ GOOGLE_API_KEY=your_google_key
 1. Avvia il bot con `npm start` oppure `node index.js` oppure `node .`
    
 2. Dopo il caricamento scrivi 1 o 2 per scegliere come unire il bot con il tuo numero.
+
 ➪ se hai scelto con codice QR apri WhatsApp, apri ⋮ , poi apri Dispositivi_collegati/Collega un dispositivo, ti si aprirà la fotocamera e       dovrai scanerizzare il codice che ti appare sul terminale.
 ➪ se hai scelto con codice a 6 cifre arriva lo stesso a Collega un dispositivo, e poi cliccare in basso sulla scritta "In alternativa, collega con il numero di telefono", inserire nel terminale il numero di telefono e inserire sul telefono il codice che ti viene mostrato nel terminale.
 
-3. Se tutto va bene, il bot si connetterà automaticamente, ti chiederà all'inzio di fare un riavvio, non te lo chiederà più le prossime volte.
+4. Se tutto va bene, il bot si connetterà automaticamente, ti chiederà all'inzio di fare un riavvio, non te lo chiederà più le prossime volte.
 
 ## 🎮 Comandi Disponibili
 
