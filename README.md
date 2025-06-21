@@ -24,11 +24,17 @@
 
 ## 📑 Descrizione
 
-Bot WhatsApp avanzato costruito con [whiskeysockets/baileys](https://github.com/WhiskeySockets/Baileys), una libreria JavaScript per interagire con l'API Web di WhatsApp. Questo bot offre varie opzioni per aiutare gli amministratori e contiene tanti comandi divertenti e intressanti da usare per gli utenti.
+PhiShy è il mio progetto personale che porto avanti da mesi. iniziaziato solo come fork di altri bot, ora ne è diventato uno original con una sua personalità. rigrazio chi ha contribuito indirettamente nel suo sviluppo.
+
+
+
+
+
+
 
 
 ### 🎯 Funzionalità Principali
-con funzioni si intende vari bottoni on/off che controllano funzioni automatiche del bot. da usare con .attiva o .disabilita... usateli sulle vostre preferenze.
+con funzioni si intende vari switch true/false  che controllano funzioni automatiche del bot. usateli sulle vostre preferenze.
 
 per il gruppo
 
@@ -36,33 +42,33 @@ per il gruppo
 
 
 
-| funzione | Descrizione | Uso |
-|---------|------|-----|
-| detect | questa funzione serve per far funzionare vari comandi come dare admin o rimuovere utenti, lasciatela sempre attiva | ✅ |
-| benvenuto | saluta gli utenti quando entrano. i messaggi di  benvenuto, bentornato e addio sono tutti personalizzabili e diversi per ogni gruppo | ✅ |
-| modoadmin | se è attivo in quel gruppo solo gli admin possono usare i comandi | ✅ |
-| talk | quando è attivo PhiShy risponde agli insulti e interagisce a caso con gli utenti, da usare con cautea 🛑 | ✅ |
-| autolevelup | tutti gli utenti salgono di livello appena raggiungono gli exp necessari | ✅ |
-| antielimina | manda in privato all'owner i messaggi eliminati in una chat | ✅ |
+| funzione | Descrizione |
+|---------|------|
+| detect | questa funzione serve per far funzionare vari comandi come dare admin o rimuovere utenti, lasciatela sempre attiva | 
+| benvenuto | saluta gli utenti quando entrano. i messaggi di  benvenuto, bentornato e addio sono tutti personalizzabili e diversi per ogni gruppo | 
+| modoadmin | se è attivo in quel gruppo solo gli admin possono usare i comandi | 
+| talk | quando è attivo PhiShy risponde agli insulti e interagisce a caso con gli utenti, da usare con cautea 🛑 | 
+| autolevelup | tutti gli utenti salgono di livello appena raggiungono gli exp necessari | 
+| antielimina | manda in privato all'owner i messaggi eliminati in una chat | 
 
 restrizioni
-| funzione | Descrizione | Uso |
-|---------|---------|-----|
-| antiarab | kicka fuori chi scrive da numeri stranieri | ✅ |
-| antiporno | ancora in fase di sviluppo, non lascia che utenti mandino materiale nsfw | ❌ |
-| antitrava | riconosce messaggi troppo lunghi e li elimina | ✅ |
-| antilink | non permette link di altri gruppi WhatsApp | ✅ |
-| antivoip | rifiuta automaticamente le richieste ai gruppi di tutti i voip | ✅ |
-| bottoni | deprecati anni fa, non sono importarti per le funzioni del bot | ❌ |
-| antispam | avverte di ban chi scrive troppi messaggi in poco tempo, dopodiché verrà bannato | ✅ |
-| anticall | il bot blocca chi lo chiama | ✅ |
-| antiprivato | il bot blocca la persona che gli scrive in prvivato | ✅ |
+| funzione | Descrizione |
+|---------|---------|
+| antiarab | kicka fuori chi scrive da numeri stranieri | 
+| antiporno | ancora in fase di sviluppo, non lascia che utenti mandino materiale nsfw | 
+| antitrava | riconosce messaggi troppo lunghi e li elimina | 
+| antilink | non permette link di altri gruppi WhatsApp | 
+| antivoip | rifiuta automaticamente le richieste ai gruppi di tutti i voip | 
+| bottoni | deprecati anni fa, non sono importarti per le funzioni del bot | 
+| antispam | avverte di ban chi scrive troppi messaggi in poco tempo, dopodiché verrà bannato | 
+| anticall | il bot blocca chi lo chiama | 
+| antiprivato | il bot blocca la persona che gli scrive in prvivato | 
 
 altro
 
-| sologruppo | i comandi non funzionano in privato | ✅ |
-|---------|-------------|-----|
-| soloprivato | i comandi non funzionano nei gruppi | ✅ |
+| sologruppo | i comandi non funzionano in privato | 
+|---------|-------------|
+| soloprivato | i comandi non funzionano nei gruppi | 
 
 
 
