@@ -98,10 +98,10 @@ npm start
 ### 💻 Windows
 
 #### Prerequisiti: Node.js 16+ e Git installati
-* scarica e installa Git [`Aquí`](https://git-scm.com/downloads)
-* scarica e installa NodeJS [`Aquí`](https://nodejs.org/en/download)
-* scarica e installa FFmpeg [`Aquí`](https://ffmpeg.org/download.html) (**Non dimenticare di aggiungere FFmpeg alla variabile d'ambiente PATH.**)
-* scarica e installa ImageMagick [`Aquí`](https://imagemagick.org/script/download.php)
+* scarica e installa Git [`Qui`](https://git-scm.com/downloads)
+* scarica e installa NodeJS [`QUi`](https://nodejs.org/en/download)
+* scarica e installa FFmpeg [`QUi`](https://ffmpeg.org/download.html) (**Non dimenticare di aggiungere FFmpeg alla variabile d'ambiente PATH.**)
+* scarica e installa ImageMagick [`QUi`](https://imagemagick.org/script/download.php)
 
 
 Clona il repository
