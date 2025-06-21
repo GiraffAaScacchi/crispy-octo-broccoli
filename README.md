@@ -1,20 +1,18 @@
 
 # 𝐏𝐡𝐢𝐒𝐡𝐲 𝐅𝐜𝐤 𝐔 𝐁𝐨𝐭 💮
- 
-
-
-</p> 
- <p align="center"> 
-
-  <img width="400" src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png?color=red&label=Repo%20Size&style=for-the-badge&logo=appveyor"> 
- </p> 
+<h1 align="center">𝐏𝐡𝐢𝐒𝐡𝐲 𝐅𝐜𝐤 𝐔 𝐁𝐨𝐭 💮</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Social-FF0069?style=for-the-badge&logo=Instagram&logoColor=white" />
+  <img src="https://i.ibb.co/SDmvw1hZ/Screenshot-2025-06-21-002946.png" width="400" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Social-FF0069?style=for-the-badge&logo=Instagram&logoColor=white"/>
+</p>
+
+---
 
 # Indice
 - [📑 Descrizione](#-Descrizione)
