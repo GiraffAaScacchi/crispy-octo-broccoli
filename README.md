@@ -352,7 +352,7 @@ GOOGLE_API_KEY=your_google_key
 -----
 ### RPG (role play, economia)
 
-### 📃 STATS
+#### 📃 STATS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | profilo | Statistiche nel gioco | `profilo` |
@@ -363,7 +363,7 @@ GOOGLE_API_KEY=your_google_key
 | nome/cambianome | Cambia il tuo nome nel database, utile quando vedi il numero di cell invece del nick | `nome <nuovo_nome>` |
 
 -----
-### 🛒 NEGOZIO
+#### 🛒 NEGOZIO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | shop | Menu del negozio | `shop` |
@@ -371,7 +371,7 @@ GOOGLE_API_KEY=your_google_key
 | vendi | Vendi oggetti | `vendi <oggetto>` |
 
 -----
-### 🍬 CARAMELLE/DOLCI
+#### 🍬 CARAMELLE/DOLCI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | sceglilavoro/setjob | Cercati un lavoro | `sceglilavoro` |
@@ -387,7 +387,7 @@ GOOGLE_API_KEY=your_google_key
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 
 -----
-### 🐯 ANIMALI/PET
+#### 🐯 ANIMALI/PET
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | bagno | Lava il tuo pet | `bagno` |
@@ -399,7 +399,7 @@ GOOGLE_API_KEY=your_google_key
 | ✜ speciale | Usa abilità speciali | `speciale` |
 
 -----
-### 📊 AZIONI E CRYPTO
+#### 📊 AZIONI E CRYPTO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | mercato borsa | Mostra dati recenti | `mercato borsa` |
@@ -407,7 +407,7 @@ GOOGLE_API_KEY=your_google_key
 | mercato compra/vendi | Scambia dolci con crypto | `mercato compra/vendi` |
 | azioni | Mostra azioni/crypto possedute | `azioni` |
 
-### 🧙🏻‍♂️ MAGIA
+#### 🧙🏻‍♂️ MAGIA
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | reg | Registrati nel mondo magico | `reg` |
