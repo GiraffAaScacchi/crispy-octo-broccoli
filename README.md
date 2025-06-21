@@ -1,8 +1,4 @@
-# Indice
-- [Descrizione](#Descrizione)
-- [Installazione](#Installazione)
-- [Funzioni](#Funzioni)
-- [Comandi](#Comandi)
+
 
 </p> 
  <p align="center"> 
@@ -14,6 +10,13 @@
   <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   <img src="https://img.shields.io/badge/Social-FF0069?style=for-the-badge&logo=Instagram&logoColor=white" />
 </p>
+
+
+# Indice
+- [Descrizione](#Descrizione)
+- [Installazione](#Installazione)
+- [Funzioni](#Funzioni)
+- [Comandi](#Comandi)
 
 ## Descrizione
 
