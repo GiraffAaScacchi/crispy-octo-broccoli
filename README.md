@@ -180,9 +180,9 @@ GOOGLE_API_KEY=your_google_key
 
 4. Se tutto va bene, il bot si connetterà automaticamente, ti chiederà all'inzio di fare un riavvio, non te lo chiederà più le prossime volte.
 
-## 🎮 Comandi Disponibili
+## Lista di comandi 
 
-##### 🛠️ TOOLS
+🛠️ TOOLS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | hd | Migliora la qualità di un'immagine | `hd` |
@@ -212,7 +212,7 @@ GOOGLE_API_KEY=your_google_key
 | filtra | blocca una parola per 24 ore | `filtra <parola>` |
 
 -----
-##### 🎭 AZIONI  
+🎭 AZIONI  
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | dance | Balla con qualcuno | `dance @utente` |
@@ -235,7 +235,7 @@ GOOGLE_API_KEY=your_google_key
 | lega | Lega qualcuno | `lega @utente` |
 
 -----
-##### 🏅 TOP
+🏅 TOP
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | top | Classifica dei messaggi | `top` |
@@ -247,7 +247,7 @@ GOOGLE_API_KEY=your_google_key
 | settimana | Classifica settimanale | `settimana` |
 
 -----
-##### 🎰 GIOCHI
+🎰 GIOCHI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | blackjack | Gioca a blackjack contro il bot| `blackjack` |
@@ -261,7 +261,7 @@ GOOGLE_API_KEY=your_google_key
 | cfs | carta forbici sasso contro il bot | `cfs` |
 
 -------
-##### MISSIONI 📢
+MISSIONI 📢
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 |---------|----------|-------|
 | missioni | vedi le missioni disponibili | `missioni` |
@@ -272,7 +272,7 @@ GOOGLE_API_KEY=your_google_key
 | ricaricamissioni | Ricarica missioni (admin)| `ricaricamissioni` |
 
 -----
-##### 🎉 FUN
+🎉 FUN
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | cr7 | Tributo a Cristiano Ronaldo | `cr7` |
