@@ -173,133 +173,303 @@ GOOGLE_API_KEY=your_google_key
    ➪ se hai scelto con codice a 6 cifre arriva lo stesso a Collega un dispositivo, e poi cliccare in basso sulla scritta "In alternativa, collega con il numero di telefono", inserire nel terminale il numero di telefono e inserire sul telefono il codice che ti viene mostrato nel terminale.
 3. Se tutto va bene, il bot si connetterà automaticamente, ti chiederà all'inzio di fare un riavvio, non te lo chiederà più le prossime volte.
 
-### Comandi Base
-```
-!help - Mostra tutti i comandi
-!ping - Testa la connessione
-!info - Informazioni sul bot
-!menu - Menu principale
-```
-
-### Comandi Admin
-```
-!kick @user - Rimuovi utente dal gruppo
-!promote @user - Promuovi a admin
-!demote @user - Rimuovi da admin
-!group open/close - Apri/chiudi gruppo
-```
-
-## 🔧 Personalizzazione
-
-### Aggiungere Nuovi Comandi
-```javascript
-// commands/mycommand.js
-module.exports = {
-    name: 'mycommand',
-    description: 'Il mio comando personalizzato',
-    execute: async (sock, msg, args) => {
-        // La tua logica qui
-    }
-}
-```
-
-### Modificare le Risposte
-Edita il file `responses.json`:
-```json
-{
-    "welcome": "Benvenuto nel gruppo!",
-    "goodbye": "Addio!",
-    "error": "Si è verificato un errore"
-}
-```
-
-### Plugin System
-```javascript
-// plugins/myplugin.js
-module.exports = {
-    name: 'myplugin',
-    load: () => {
-        console.log('Plugin caricato!');
-    }
-}
-```
-
-## 📊 Database
-
-### Supporto Database
-- [x] **JSON** (default)
-- [x] **MongoDB**
-- [x] **MySQL**
-- [x] **PostgreSQL**
-- [x] **SQLite**
-
-### Schema Dati
-```javascript
-// Utenti
-{
-    id: "39xxxxxxxxxx",
-    name: "Nome Utente",
-    isAdmin: false,
-    joinDate: "2024-01-01",
-    messageCount: 150
-}
-
-// Gruppi
-{
-    id: "gruppo-id",
-    name: "Nome Gruppo",
-    settings: {
-        welcome: true,
-        antiSpam: false
-    }
-}
-```
-
 ## 🎮 Comandi Disponibili
 
-### 📋 Generali
+#### 🛠️ TOOLS
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| `!help` | Lista comandi | `!help [categoria]` |
-| `!ping` | Test latenza | `!ping` |
-| `!uptime` | Tempo online | `!uptime` |
+| hd | Migliora la qualità di un'immagine | `hd` |
+| img | Cerca immagini | `img <termine>` |
+| doc | Cerca documenti | `doc <termine>` |
+| tiktok | Scarica video da TikTok | `tiktok <link>` |
+| instagram | Scarica contenuti da Instagram | `instagram <link>` |
+| dado | Lancia un dado | `dado` |
+| meteo | Controlla il meteo | `meteo <città>` |
+| info | Mostra informazioni generali | `info` |
+| proprietario | Informazioni sul proprietario del bot | `proprietario` |
+| ping | Verifica la latenza del bot | `ping` |
+| lyrics | Cerca testi di canzoni | `lyrics <canzone>` |
+| stt | Speech to text | `stt` (con audio) |
+| igstalk | Stalk profilo Instagram | `igstalk <username>` |
+| toanime | Converti immagine in stile anime | `toanime` (con immagine) |
+| toimg | Converti sticker in immagine | `toimg` (con sticker) |
+| tomp3 | Converti video in audio | `tomp3` (con video) |
+| tovideo | Converti GIF in video | `tovideo` (con GIF) |
+| sticker/s | Crea sticker | `sticker` (con immagine) |
+| phishy | AI chatbot | `phishy <messaggio>` |
+| contautenti | Conta gli utenti nel gruppo | `contautenti` |
+| ispeziona | Ispeziona informazioni di un utente | `ispeziona` |
+| sito | Informazioni su un sito web | `sito <url>` |
+| virus | Scansiona file per virus | `virus` (con file) |
+| translate | Traduce testo | `translate <testo>` |
+| wiki | Cerca su Wikipedia | `wiki <termine>` |
+| gender | Predice il genere da un nome | `gender <nome>` |
+| paese | Informazioni su un paese | `paese <nome>` |
+| consigliafilm | Consiglia film | `consigliafilm` |
+| filtra | Filtra contenuti | `filtra` |
+
+-----
+#### 🎭 AZIONI  
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| dance | Fai ballare qualcuno | `dance @utente` |
+| sposa | Sposa qualcuno | `sposa @utente` |
+| divorzia | Divorzia da qualcuno | `divorzia @utente` |
+| bankai | Attacco bankai | `bankai @utente` |
+| bonk | Colpisci qualcuno | `bonk @utente` |
+| ditalino | Azione provocatoria | `ditalino @utente` |
+| sega | Azione provocatoria | `sega @utente` |
+| sfida | Sfida qualcuno | `sfida @utente` |
+| wwe | Wrestling match | `wwe @utente` |
+| abbraccio | Abbraccia qualcuno | `abbraccio @utente` |
+| insulta | Insulta qualcuno | `insulta @utente` |
+| lite | Litiga con qualcuno | `lite @utente` |
+| animeinfo | Informazioni su anime | `animeinfo <nome>` |
+| mangainfo | Informazioni su manga | `mangainfo <nome>` |
+| misura | Misura attributi | `misura pene/bocce @utente` |
+| qrcode | Genera QR code | `qrcode <testo>` |
+| sposami | Proposta di matrimonio | `sposami @utente` |
+| lega | Lega qualcuno | `lega @utente` |
+
+-----
+#### 🏅 TOP
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| top | Classifica generale | `top` |
+| topbestemmie | Top bestemmie | `topbestemmie` |
+| topdolci | Top dolci | `topdolci` |
+| topgay | Top gay | `topgay` |
+| topscimmie | Top scimmie | `topscimmie` |
+| top5 | Top 5 generale | `top5` |
+| settimana | Classifica settimanale | `settimana` |
+
+-----
+#### 🎰 GIOCHI
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| blackjack | Gioca a blackjack | `blackjack` |
+| slot | Gioca alle slot machine | `slot` |
+| poker | Gioca a poker | `poker` |
+| gara | Organizza una gara | `gara @utente` |
+| math | Gioco matematico | `math` |
+| canzone | Indovina la canzone | `canzone` |
+| obbligo/verita | Obbligo o verità | `obbligo` o `verita` |
+| triss | Gioca a tris | `triss` |
+| cfs | Challenge fight system | `cfs` |
+| missioni | Sistema missioni | `missioni` |
+| missionihelp | Aiuto missioni | `missionihelp` |
+| accetta | Accetta missione | `accetta` |
+| mymissioni | Le tue missioni | `mymissioni` |
+| annulla | Annulla missione | `annulla` |
+| verifica | Verifica missione | `verifica` |
+| ricaricamissioni | Ricarica missioni | `ricaricamissioni` |
+
+-----
+#### 🎉 FUN
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| cr7 | Tributo a Cristiano Ronaldo | `cr7` |
+| fototeta | Foto divertenti | `fototeta` |
+| ridi | Fai ridere | `ridi @utente` |
+| amore | Livello di amore | `amore @utente` |
+| guilty | Livello di colpevolezza | `guilty @utente` |
+| hornycard | Carta del desiderio | `hornycard @utente` |
+| jail | Manda in prigione | `jail @utente` |
+| kebab | Ordina kebab | `kebab` |
+| odio | Livello di odio | `odio @utente` |
+| rispetto | Livello di rispetto | `rispetto @utente` |
+| gatto | Immagini di gatti | `gatto` |
+| personalita | Analizza personalità | `personalita @utente` |
+| emojimix | Mescola emoji | `emojimix 😀+😍` |
+| attp/ttp | Testo animato | `attp <testo>` |
+| ricetta | Ricette casuali | `ricetta` |
+| f1 | Informazioni Formula 1 | `f1` |
+
+
 
 ### 👑 Admin
+
+#### 🗣️ GRUPPO 
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
-| `!kick` | Rimuovi utente | `!kick @user` |
-| `!ban` | Banna utente | `!ban @user` |
-| `!promote` | Promuovi admin | `!promote @user` |
+| add | Aggiungi utente al gruppo | `add <numero>` |
+| fixscudi | Ripara problemi del gruppo | `fixscudi` |
+| setwelcome/setbye | Imposta messaggio di benvenuto/addio | `setwelcome <messaggio>` |
+| set | Impostazioni gruppo | `set <opzione>` |
+| aperto/chiuso | Apri/chiudi gruppo | `aperto` o `chiuso` |
+| del | Elimina messaggio | `del` (rispondi al messaggio) |
+| inattivi | Lista utenti inattivi | `inattivi` |
+| kick | Espelli utente | `kick @utente` |
+| kicknum | Espelli per numero | `kicknum <numero>` |
+| muta/smuta | Silenzia/riattiva utente | `muta @utente` |
+| setmuta | Imposta durata silenzio | `setmuta <tempo>` |
+| promuovi/p | Promuovi ad admin | `promuovi @utente` |
+| retrocedi/r | Rimuovi admin | `retrocedi @utente` |
+| simula | Simula azione | `simula <azione>` |
+| warn | Avvisa utente | `warn @utente <motivo>` |
+| unwarn | Rimuovi avvertimento | `unwarn @utente` o `unwarn 1/2/all` |
+| warnlist | Lista avvertimenti | `warnlist` |
+| setig | Imposta immagine gruppo | `setig` (con immagine) |
+| speedtest | Test velocità connessione | `speedtest` |
+| infostato | Informazioni stato gruppo | `infostato` |
 
-### 🎯 Utility
+----------
+#### 👥 TAG FUNZIONI
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| hidetag | Tag nascosto a tutti | `hidetag <messaggio>` |
+| tagall | Tagga tutti i membri | `tagall <messaggio>` |
+| tagmembri | Tagga solo i membri | `tagmembri <messaggio>` |
+| admins | Tagga tutti gli admin | `admins <messaggio>` |
+| vaffanculo | Messaggio provocatorio | `vaffanculo` |
+
+---
+#### 🎭 FUN COMMANDS 
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| dox | Informazioni fake su utente | `dox @utente` |
+| stupra | Azione provocatoria | `stupra @utente` |
+| bocchino | Azione provocatoria | `bocchino @utente` |
+| bocchina | Azione provocatoria | `bocchina @utente` |
+
+
+### RPG (role play, economia)
+
+### 📃 STATS
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| profilo | Statistiche nel gioco | `profilo` |
+| info | Statistiche generali nel gruppo | `info` |
+| livello/level/lvl | Mostra il tuo livello attuale | `livello` |
+| levelup/lvlup | Aumenta di livello | `levelup` |
+| cura | Curati la vita con le pozioni | `cura` |
+| nome/cambianome | Cambia il tuo nome | `nome <nuovo_nome>` |
+
+### 🛒 NEGOZIO
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| shop | Menu del negozio | `shop` |
+| compra | Acquista oggetti | `compra <oggetto>` |
+| vendi | Vendi oggetti | `vendi <oggetto>` |
+
+### 🍬 CARAMELLE/DOLCI
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| lavoro/sceglilavoro/setjob | Cercati un lavoro | `lavoro` |
+| lavora/work | Fai soldi fatturando | `lavora` |
+| prega | Meno soldi ma minore cooldown | `prega` |
+| ruba | Ruba altri utenti | `ruba @utente` |
+| daily | Premio quotidiano | `daily` |
+| wallet | Vedi i tuoi soldi | `wallet` |
+| deposita | Metti in banca i tuoi dolci | `deposita <numero>` |
+| transferisci | Trasferisci oggetti ad altri | `transferisci <numero/oggetto> @utente` |
+| tesoro | Ricevi grossi premi | `tesoro` |
+| scassa | Scassina cassaforte (serve forcina) | `scassa @utente` |
+| missionihelp | Comandi relativi alle missioni | `missionihelp` |
+
+### 🎡 GIOCHI
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| blackjack | Gioca a blackjack | `blackjack` |
+| slot | Gioca alle slot machine | `slot` |
+| poker | Gioca a poker | `poker` |
+| gara | Organizza una gara | `gara @utente` |
+
+### 🐯 ANIMALI/PET
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| bagno | Lava il tuo pet | `bagno` |
+| cibo | Dai da mangiare al pet | `cibo` |
+| curiosita | Curiosità sul pet | `curiosita` |
+| combatti | Fai combattere il pet | `combatti @utente` |
+| attacca | Attacca in combattimento | `attacca` |
+| difendi | Difenditi in combattimento | `difendi` |
+| abilita | Usa abilità speciali | `abilita` |
+
+### 📊 AZIONI E CRYPTO
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| mercato borsa | Mostra dati recenti | `mercato borsa` |
+| mercato grafico | Mostra grafico crypto | `mercato grafico <crypto>` |
+| mercato compra/vendi | Scambia dolci con crypto | `mercato compra/vendi` |
+| azioni | Mostra azioni/crypto possedute | `azioni` |
+
+### 🧙🏻‍♂️ MAGIA
+| Comando | Descrizione | Uso |
+|---------|-------------|-----|
+| reg | Registrati nel mondo magico | `reg` |
+| bacchetta | Compra una bacchetta | `bacchetta` |
+| borsa | Mostra statistiche e oggetti | `borsa` |
+| casata | Il cappello parlante sceglie la casata | `casata` |
+| studia | Impara nuove magie | `studia` |
+| usa | Lancia un incantesimo | `usa <incantesimo>` |
+| dungeon | Entra nel dungeon e combatti | `dungeon` |
+
+-----
+### Audio 
+
+| Comando  | Sinonimi |
+|----------|----------|
+| paguro | cicciogamer |
+| grasso | ciccione/a, gross/a, |
+| topolino | tiska tuska | mickey |
+| topa | bella |
+| woman | donna |
+| ohno | oh no |
+| orcodio | mosconi | gennaro |
+| rizz | skibidi, brainrot |
+| piedi | piede |
+| disco | bober |
+
+### Talk (attivo)
+
+| Comando  | Sinonimi |
+|----------|----------|
+| come ? | - |
+| amo | amore, vita, cucciola |
+| basta | - |
+| buongiorno | bg |
+| buonasera | bs |
+| buonanotte | bn |
+| bot | robot |
+| jurida | . |
+| napoli | napoletano |
+| vaffanculo | - |
+
+
+
+
+
+
+
+
+
+
+
+
+
+-
+#### 🎯 Utility
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | `!weather` | Meteo | `!weather Roma` |
 | `!translate` | Traduci testo | `!translate en it Hello` |
 | `!qr` | Genera QR code | `!qr Testo` |
 
-### 🎵 Media
+-----
+#### 🎵 Media
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
 | `!ytdl` | Download YouTube | `!ytdl [url]` |
 | `!sticker` | Crea sticker | Rispondi a immagine |
 | `!tts` | Text to speech | `!tts Ciao mondo` |
 
-## 🔒 Sicurezza
 
-### Rate Limiting
-```javascript
-// Limite messaggi per utente
-const rateLimit = {
-    windowMs: 60000, // 1 minuto
-    max: 10 // max 10 messaggi
-}
-```
 
-### Anti-Spam
-- Blocco automatico messaggi ripetuti
-- Blacklist parole/link
-- Timeout temporanei
+
+
+
+
 
 ### Permessi
 ```javascript
