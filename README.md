@@ -21,8 +21,13 @@
 
 ## 📑 Descrizione
 
-PhiShy è il mio progetto personale che porto avanti da mesi. iniziaziato solo come fork di altri bot, ora ne è diventato uno original con una sua personalità. rigrazio chi ha contribuito indirettamente nel suo sviluppo.
 
+🎭 **PhiShy** è il mio progetto personale che porto avanti da mesi.  
+Nato come semplice fork, è diventato un bot completo con una sua **personalità, stile e umorismo nero**.
+
+> 💡 *Un grazie speciale a chi ha contribuito indirettamente allo sviluppo, anche solo insultandomi.*
+
+---
 
 
 
