@@ -294,8 +294,7 @@ GOOGLE_API_KEY=your_google_key
 | ricetta | Ricette casuali | `ricetta` |
 | f1 | comando dedicato a giulia | `f1` |
 
-
-
+------
 ### 👑 Admin
 
 #### 🗣️ GRUPPO 
@@ -343,6 +342,14 @@ GOOGLE_API_KEY=your_google_key
 | bocchino | Azione provocatoria | `bocchino @utente` |
 
 
+
+
+
+
+
+
+
+-----
 ### RPG (role play, economia)
 
 ### 📃 STATS
@@ -355,6 +362,7 @@ GOOGLE_API_KEY=your_google_key
 | cura | Curati la vita con le pozioni | `cura minore/maggiore/definitiva` |
 | nome/cambianome | Cambia il tuo nome nel database, utile quando vedi il numero di cell invece del nick | `nome <nuovo_nome>` |
 
+-----
 ### 🛒 NEGOZIO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
@@ -362,6 +370,7 @@ GOOGLE_API_KEY=your_google_key
 | compra | Acquista oggetti | `compra <oggetto>` |
 | vendi | Vendi oggetti | `vendi <oggetto>` |
 
+-----
 ### 🍬 CARAMELLE/DOLCI
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
@@ -377,7 +386,7 @@ GOOGLE_API_KEY=your_google_key
 | scassa | Scassina cassaforte (serve forcina) | `scassa @utente` |
 | missionihelp | Comandi relativi alle missioni | `missionihelp` |
 
-
+-----
 ### 🐯 ANIMALI/PET
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
@@ -389,6 +398,7 @@ GOOGLE_API_KEY=your_google_key
 | ✜ difendi | Difenditi in combattimento | `difendi` |
 | ✜ speciale | Usa abilità speciali | `speciale` |
 
+-----
 ### 📊 AZIONI E CRYPTO
 | Comando | Descrizione | Uso |
 |---------|-------------|-----|
@@ -424,6 +434,7 @@ GOOGLE_API_KEY=your_google_key
 | piedi | piede |
 | disco | bober |
 
+------
 ### Talk (attivo)
 
 | Comando  | Sinonimi |
@@ -438,11 +449,6 @@ GOOGLE_API_KEY=your_google_key
 | jurida | . |
 | napoli | napoletano |
 | vaffanculo | - |
-
-
-
-
-
 
 
 
