@@ -18,7 +18,7 @@
 
 # Indice
 - [Descrizione](#Descrizione)
-- [🚀 Installazione](#Installazione)
+- [🚀 Installazione](#-Installazione)
 - [Funzioni](#Funzioni)
 - [Comandi](#Comandi)
 
